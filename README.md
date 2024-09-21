@@ -1,21 +1,19 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
+# 🖥️ My Portfolio
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+Welcome to my portfolio showcasing my journey in mobile development and beyond, using cutting-edge technologies like Kotlin Multiplatform (KMP) and Compose Multiplatform.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## 👨‍💻 About Me
 
+I am an experienced Android developer with over **5+ years** of expertise in mobile development. Through Kotlin Multiplatform, I have expanded my skills to target multiple platforms, including iOS, Android, Desktop, and Web.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+## 🛠️ Tech Stack
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
+This portfolio was developed using:
 
-You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+- 🚀 **Kotlin Multiplatform (KMP)**: Allows sharing core business logic across Android, iOS, Desktop, and Web platforms, leveraging a single codebase.
+- 🎨 **Compose Multiplatform**: A modern declarative UI framework for building native UIs with a unified codebase, targeting multiple platforms.
+- 📱 **Target Platforms**:
+  - ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=flat-square)
+  - ![iOS](https://img.shields.io/badge/iOS-000000?logo=apple&logoColor=white&style=flat-square)
+  - ![Desktop](https://img.shields.io/badge/Desktop-0078D6?logo=windows&logoColor=white&style=flat-square)
+  - ![Web](https://img.shields.io/badge/Web-4285F4?logo=google-chrome&logoColor=white&style=flat-square)
